@@ -5,16 +5,18 @@ h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-::ng-deep p-card {
-    width: 2em;
+::ng-deep .p-card {
     text-align: center;
+    margin-top: 1.7em;
 }
+
 
 input {
-    margin-left: 1em;
-    width: 7em;
+    margin: 0 auto;
 }
 
-::ng-deep .p-card {
-    margin-top: 1em;
+button {
+    position: relative;
+    top: 1em;
+    margin: 0 auto;
 }
